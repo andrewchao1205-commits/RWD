@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RWD</title>
+    <title>RWD應用</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     
@@ -55,15 +55,79 @@
     </div>
 </div>
 
+<div class="modal" id="SabaIntro" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">詳細介紹</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>鯊魚子Saba（英語：Sameko Saba，日語：さめこさば Sameko Saba)
+                    是位美國個人勢英語虛擬YouTuber。2025年6月28日在YouTube進行首次直播，
+                    僅在出道2天後的7月1日達成100萬訂閱里程碑，成為史上最快達成百萬訂閱的VTuber。
+                </h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="RoaraIntro" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">詳細介紹</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>Roara是Hololive EN正義組（Justice）的成員，角色設定是一位
+                    擁有神之眼的藝術家，可以透過各種社交能力來獲取資訊進行調查。
+                    她會按照收集到的資訊來進行臉部的肖像畫繪製並以高準確度聞名，
+                    如今，她的目光轉向尋找新的披薩店，並享受遠東地區的流行文化。
+                </h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="DokiIntro" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">詳細介紹</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>全名Doki "Maple" Bird，充滿活力，很愛笑，善於捉弄與嘲諷觀眾。
+                    十分擅長FPS遊戲，如Apex與守望先鋒，水平很高。此外，也對復古遊戲感興趣。
+                    擅長繪畫，曾經為刻晴、Gura、Undertale和她自己等繪製了一些同人圖片。
+                </h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
    <section class="container my-5">
     <div class="row text-center">
         <div class="col-md-4 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="card-title">特色一</h5>
-                    <p class="card-text">Bootstrap 提供了簡單好用的響應式網格系統。</p>
-                    <p class="text-muted small">透過 col 與 row 結構，你可以輕鬆建立彈性排版，不論在手機或桌機上都能完美呈現。</p>
+                    <h5 class="card-title">Saba</h5>
+                    <p class="card-text">A very cute fish.</p>
+                    <img src="saba.jpg" name="saba" width="200px">
+                    <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#SabaIntro">
+                    了解更多
+                    </button>
                 </div>
             </div>
         </div>
@@ -71,9 +135,12 @@
         <div class="col-md-4 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="card-title">特色二</h5>
-                    <p class="card-text">使用預設的排版與按鈕樣式即可快速開發。</p>
-                    <p class="text-muted small">Bootstrap 提供大量內建元件，例如按鈕、表單、導覽列，讓開發者節省時間。</p>
+                    <h5 class="card-title">Roara</h5>
+                    <p class="card-text">A very big cat.</p>
+                    <img src="roara.png" name="saba" width="200px">
+                    <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#RoaraIntro">
+                    了解更多
+                    </button>
                 </div>
             </div>
         </div>
@@ -81,9 +148,12 @@
         <div class="col-md-4 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="card-title">特色三</h5>
-                    <p class="card-text">自動適應手機、平板與桌面裝置。</p>
-                    <p class="text-muted small">只要設定適當的 col-breakpoint（如 col-md-4），就能讓版面在不同裝置下自動調整。</p>
+                    <h5 class="card-title">Dokibird</h5>
+                    <p class="card-text">A very generous bird.</p>
+                    <img src="dokibird.jpg" name="saba" width="200px">
+                    <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#DokiIntro">
+                    了解更多
+                    </button>
                 </div>
             </div>
         </div>
@@ -91,7 +161,6 @@
 </section>
     
 
-    <!-- 頁尾 -->
     <footer class="bg-dark text-white text-center py-3">
         <p class="mb-0">© 2025 我的網站. All rights reserved.</p>
     </footer>
